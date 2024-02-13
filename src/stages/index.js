@@ -8,8 +8,10 @@ export * from './5.js'
 export const STAGES = {
   INICIAL: '0',
   MENU: '1',
-  CARRINHO: '2',
-  RESUMO: '3',
-  PEDIDO: '4',
-  FALAR_COM_ATENDENTE: '5',
+  ITEN:'2',
+  QUANTIDADE:'6',
+  CARRINHO: '4',
+  RESUMO: '5',
+  PEDIDO: '3',
+  FALAR_COM_ATENDENTE: '7',
 }

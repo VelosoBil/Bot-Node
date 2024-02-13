@@ -1,22 +1,22 @@
 export const menu = {
   1: {
-    description: 'Leite Ninho',
-    price: 6,
+    description: 'Mandioca',
+    price: 1,
   },
   2: {
     description: 'Alpino',
-    price: 6,
+    price: 2,
   },
   3: {
     description: 'Prestígio',
-    price: 6,
+    price: 3,
   },
   4: {
     description: 'Abacaxi',
-    price: 6,
+    price: 4,
   },
   5: {
     description: 'Dois Amores',
-    price: 6,
+    price: 5,
   },
 }

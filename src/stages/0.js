@@ -10,12 +10,16 @@ export const initialStage = {
 
     const message = `
       👋 Olá, como vai?
-      Eu sou Carlos, o *assistente virtual* da ${venombot.getSessionName}.
-      *Posso te ajudar?* 🙋‍♂️
+      Eu sou Juarez, a IA da ${venombot.getSessionName}.
+      Posso te ajudar? 🙋‍♂️
+      Todo contato e registrdo em minha base de dados, e aprendo com você, para melhorar meu atendimento, e sempre solucionar seus problemas ou duvids de forma rapida e eficaz.
       -----------------------------------
-      1️⃣ - FAZER PEDIDO
-      2️⃣ - VERIFICAR TAXA DE ENTREGA
-      0️⃣ - FALAR COM ATENDENTE
+      1️⃣ - Desenvolvimento de aplicações ,sites,segurança, configurção de ambientes em cloud entre outros.
+      2️⃣ - Orçamento
+      0️⃣ - Data de entrega
+      0️⃣ - Contrato PJ
+      0️⃣ - Forma de pagamento e data do pagamento.
+      0️⃣ - Falar com consultor
     `
     await venombot.sendText({ to: from, message })
   },

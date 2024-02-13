@@ -11,7 +11,7 @@ import { storage } from './storage.js'
 
 export const stages = [
   {
-    descricao: 'Welcome',
+    descricao: 'Bem vindo',
     stage: initialStage,
   },
   {
@@ -19,19 +19,19 @@ export const stages = [
     stage: stageOne,
   },
   {
-    descricao: 'Address',
+    descricao: 'Endereço',
     stage: stageTwo,
   },
   {
-    descricao: 'Bill',
+    descricao: 'Pedido',
     stage: stageThree,
   },
   {
-    descricao: 'New Order',
+    descricao: 'Novo pedido',
     stage: stageFour,
   },
   {
-    descricao: 'Assistent',
+    descricao: 'Assistente',
     stage: finalStage,
   },
 ]
